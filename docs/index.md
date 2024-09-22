@@ -1,0 +1,1 @@
+## To Connect to Read The Docs , you need to make your GitHub Repository public and not private.
