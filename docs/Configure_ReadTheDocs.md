@@ -10,6 +10,12 @@ Write Documentation Files: Add Markdown or reStructuredText files. For example, 
 While Read the Docs supports both Sphinx and MkDocs, Sphinx is more commonly used for Python projects.
 
 Install Sphinx: Run pip install sphinx to install Sphinx.
+![pip install sphinx](./images/01_pip_install_Error.png)
+To Solve this Error, run:
+```
+pip install sphinx --user
+```
+This will install the tool in user folder.
 Sphinx Quickstart: Run sphinx-quickstart in your docs directory. This command will create a basic configuration (conf.py) and some initial files.
 Configure Sphinx: Edit the conf.py file if needed, to specify extensions, themes, and other options.
 3. Create a requirements.txt File (If Needed)
